@@ -16,6 +16,14 @@ public class CustomerController {
 	@PostMapping("/savedata")
 	public Customer savedata(@RequestBody Customer c) {
 		return cs.savedata(c);
+
+
+
+
+
+
+
+		
 	}
 
 }
